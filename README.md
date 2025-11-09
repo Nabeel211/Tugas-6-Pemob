@@ -1,16 +1,23 @@
-# belajarflutter
+# Data Diri
 
-A new Flutter project.
+Nama : Daan Nabil
+NIM : H1D023100
+Shift Lama : I
+Shift Baru : F
 
-## Getting Started
+# Screenshoot
 
-This project is a starting point for a Flutter application.
+![Lampiran Form](Form.png)
+![Lampiran Hasil](Hasil.png)
 
-A few resources to get you started if this is your first Flutter project:
+# Alur
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Input Data 
+Pengguna mengisi form di `FormDataPage` menggunakan `TextEditingController` untuk `nama`, `nim`, dan `tahunLahir`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Validasi & Kirim Data
+Setelah tombol "Simpan & Lihat" ditekan, fungsi `_simpan()` akan memvalidasi data, lalu mengirimnya ke `TampilDataPage`
+
+3. Terima & Tampilkan Data
+TampilDataPage menerima data lewat konstruktor, Data kemudian ditampilkan di tampilan, dan usia dihitung otomatis
+
